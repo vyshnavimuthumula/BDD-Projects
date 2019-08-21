@@ -1,0 +1,30 @@
+<div class='container'>
+  <h4 align='center'>All Products</h4> 
+ 
+  <table class="table table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Order Id</th>
+        <th>Customer Id</th>
+        <th>Merchant Id</th>
+        <th>Ordered Price</th>
+        <th>Ordered Quantity</th>
+        <th>Order Status</th>
+        <th>Product Id</th>
+        <th>Update Status</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr>
+        <td>o001</td>
+        <td>c001</td>
+		<td>m001</td>
+		<td>1001</td>
+		<td>1</td>
+		<td>PLD</td>
+		<td>P001</td>
+        <td><button type="button" class="btn btn-primary" (click)='updateProduct(products.ordId,products.ordStatus)'>Update</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
